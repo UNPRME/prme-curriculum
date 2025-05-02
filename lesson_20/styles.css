@@ -1,0 +1,96 @@
+/* Base styling */
+body {
+  background-color: #f9f9f9; /* light blue background */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Branding section styling */
+.branding-content {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 0; /* Remove bottom margin from table */
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.branding-table td {
+  width: 50%;
+  text-align: center;
+}
+
+.logo-padding {
+  padding: 20px 0 10px; /* Reduced bottom padding */
+}
+
+.prme-extra-padding {
+  padding: 30px 0 10px; /* Reduced bottom padding */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr.bottom-line {
+  height: 12px;
+  background-color: #22314E; /* dark blue */
+  border: none;
+  margin-top: 0px; /* Reduced margin */
+  margin-bottom: 20px;
+}
+
+/* Lesson content styling */
+.lesson-content {
+  opacity: 1.0;
+  color: black;
+  padding: 0 20px;
+}
+
+.lesson-content h1 {
+  color: #22314E;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lesson-content h2 {
+  color: #22314E;
+  border-bottom: 2px solid #22314E;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+.lesson-content h3 {
+  color: #22314E;
+  margin-top: 20px;
+}
+
+.lesson-content table {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.lesson-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.lesson-content ul {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.lesson-content p {
+  margin-bottom: 15px;
+} 
