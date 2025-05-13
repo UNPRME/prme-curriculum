@@ -1,0 +1,324 @@
+/* Base styling */
+body {
+  background-color: #f9f9f9; /* light blue background */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Common styles */
+h1, h2, h3 {
+  color: #2c3e50;
+  margin: 0 0 0.5rem 0;
+}
+
+h2 {
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.5rem;
+}
+
+/* Document header styling */
+.document-header {
+  margin-bottom: 1.5rem;
+}
+
+.document-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.info-bar {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 0;
+  border: 1px solid #e9ecef;
+}
+
+.info-bar-item {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #2c3e50;
+}
+
+.info-bar-item:last-child {
+  margin-right: 0;
+}
+
+/* Grid and card layouts */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card, .info-section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e9ecef;
+}
+
+.info-section {
+  padding: 1rem;
+}
+
+.info-section h2 {
+  font-size: 1.2rem;
+}
+
+/* Content styling */
+.content-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-item {
+  padding: 0.25rem 0;
+}
+
+.hook-intro {
+  margin: 0 0 1rem 0;
+  font-weight: normal;
+}
+
+/* Activity styling */
+.activity {
+  margin-bottom: 1.5rem;
+}
+
+.activity:last-child {
+  margin-bottom: 0;
+}
+
+/* Branding section styling */
+.branding-content {
+  margin-bottom: 20px;
+}
+
+.logo-card {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #e9ecef;
+}
+
+.logo-container {
+  padding: 0;
+}
+
+.logo-container img {
+  height: 90px;
+  width: auto;
+  display: block;
+}
+
+.branding-table td {
+  width: 50%;
+  text-align: center;
+}
+
+.logo-padding {
+  padding: 20px 0 10px; /* Reduced bottom padding */
+}
+
+.prme-extra-padding {
+  padding: 30px 0 10px; /* Reduced bottom padding */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr.bottom-line {
+  height: 12px;
+  background-color: #22314E; /* dark blue */
+  border: none;
+  margin: 0 0 20px 0; /* Reduced margin */
+}
+
+/* Lesson content styling */
+.lesson-content {
+  opacity: 1.0;
+  color: black;
+  padding: 0 20px;
+}
+
+.lesson-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lesson-content h2 {
+  border-bottom-color: #22314E;
+  margin-bottom: 20px;
+}
+
+.lesson-content h3 {
+  margin-bottom: 15px;
+}
+
+.lesson-content table {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.lesson-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.lesson-content ul {
+  margin: 0 0 15px 20px;
+  padding-left: 0;
+}
+
+.lesson-content p {
+  margin: 0 0 15px 0;
+}
+
+.lesson-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Rubric matrix styling */
+.rubric-matrix {
+  margin: 15px 0;
+  overflow-x: auto;
+}
+
+.rubric-item {
+  margin-bottom: 2rem;
+}
+
+.rubric-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.rubric-table th, 
+.rubric-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  vertical-align: top;
+}
+
+.rubric-table th {
+  background-color: #f5f5f5;
+  text-align: center;
+  font-weight: bold;
+  color: #2c3e50;
+  border-bottom: 2px solid #ccc;
+}
+
+.rubric-table th:first-child {
+  width: 20%;
+  text-align: left;
+}
+
+.rubric-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.rubric-table tr:hover {
+  background-color: #f1f7fb;
+}
+
+.criterion-desc {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.criterion-cell {
+  width: 20%;
+  background-color: #f8f9fa;
+  font-weight: 500;
+}
+
+.description-cell, .rubric-cell {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.rubric-cell {
+  text-align: left;
+}
+
+.rubric-note {
+  font-style: italic;
+  color: #666;
+  padding: 10px;
+  border-left: 3px solid #ddd;
+  margin: 10px 0;
+}
+
+/* YAML-like display for matrix strings */
+.yaml-header {
+  background-color: #f8d7da;
+  color: #721c24;
+  text-align: center;
+  font-weight: bold;
+}
+
+.yaml-content {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 15px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+/* Activity resource styling */
+.resource-activity {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #22314E;
+  position: relative;
+}
+
+.resource-activity:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: -0.75rem;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.resource-activity h3 {
+  margin-top: 0;
+  color: #22314E;
+}
+
+.resource-activity p {
+  margin-bottom: 0.5rem;
+}
+
+.resource-files {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.resource-files ul {
+  margin-top: 0.5rem;
+} 
